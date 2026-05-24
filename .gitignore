@@ -3,3 +3,5 @@ node_modules/
 dist/
 .wrangler/
 .DS_Store
+Snipaste_*.png
+*.local
