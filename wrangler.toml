@@ -1,0 +1,11 @@
+name = "hongshang-inquiry"
+main = "worker/inquiry.js"
+compatibility_date = "2024-09-23"
+
+[[kv_namespaces]]
+binding = "INQUIRIES"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[vars]
+NOTIFY_EMAIL = "your@email.com"
+NOTIFY_FROM = "noreply@yourdomain.com"

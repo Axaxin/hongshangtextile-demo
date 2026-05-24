@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Hongshang Textile</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-logo"><img src="../shop-pic/Homepage Image (4).jpg" alt="Hongshang Textile Logo"></div>
+    <div class="nav-links">
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="../contact.html" class="nav-lang">中文</a>
+    </div>
+    <button class="nav-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav-mobile">
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="../contact.html" class="nav-lang">中文</a>
+  </div>
+
+  <div class="contact-layout">
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Fill in the form and we'll reply within 1-2 business days. You can also reach us directly via the details below.</p>
+      <div class="contact-item">
+        <div class="contact-item-icon">📧</div>
+        <div><div class="contact-item-label">EMAIL</div><div class="contact-item-value">contact@hongshang-textile.com</div></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">💬</div>
+        <div><div class="contact-item-label">WHATSAPP</div><div class="contact-item-value">+86 XXXX XXXX</div></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">📍</div>
+        <div><div class="contact-item-label">ADDRESS</div><div class="contact-item-value">Zhangcha, Chancheng, Foshan, Guangdong, China</div></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">🏭</div>
+        <div><div class="contact-item-label">FACTORY</div><div class="contact-item-value">4,600㎡ · 50+ Machines</div></div>
+      </div>
+    </div>
+
+    <div>
+      <form id="inquiry-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Your name" autocomplete="name">
+          <div class="form-error" id="name-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" class="form-control" placeholder="Company name (optional)" autocomplete="organization">
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="your@email.com" autocomplete="email">
+          <div class="form-error" id="email-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="whatsapp">WhatsApp / Phone</label>
+          <input type="tel" id="whatsapp" name="whatsapp" class="form-control" placeholder="+1 or international number (optional)" autocomplete="tel">
+        </div>
+        <div class="form-group">
+          <label for="products">Product Interest</label>
+          <select id="products" name="products" class="form-control">
+            <option value="">Select (optional)</option>
+            <option value="Cotton-Linen">Cotton-Linen</option>
+            <option value="Dyed-Woven">Dyed-Woven</option>
+            <option value="Jacquard">Jacquard</option>
+            <option value="Rib">Rib</option>
+            <option value="All-Cotton">All-Cotton</option>
+            <option value="Woolen">Woolen</option>
+            <option value="Warp Knit">Warp Knit</option>
+            <option value="Blended">Blended</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="note">Notes / Requirements</label>
+          <textarea id="note" name="note" class="form-control" placeholder="Please describe your fabric requirements: quantity, end use, special specifications, etc. (optional)"></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%;">Send Inquiry</button>
+      </form>
+      <div class="form-success" id="form-success" role="alert">
+        ✅ Thank you for your inquiry! We'll be in touch within 1-2 business days.
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">Hongshang Textile</div>
+        <div class="footer-brand-sub">FOSHAN HONGSHANG TEXTILE CO., LTD.</div>
+        <p class="footer-brand-desc">A modern textile enterprise integrating R&amp;D, design, production and sales, located in Zhangcha, Foshan.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Quick Links</div>
+        <ul>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="../index.html">中文</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-item">📧 contact@hongshang-textile.com</div>
+        <div class="footer-contact-item">💬 WhatsApp: +86 XXXX XXXX</div>
+        <div class="footer-contact-item">📍 Zhangcha, Foshan, Guangdong, China</div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 Foshan Hongshang Textile Co., Ltd. · All Rights Reserved</div>
+  </footer>
+
+  <script type="module" src="../assets/js/nav.js"></script>
+  <script type="module" src="../assets/js/contact.js"></script>
+</body>
+</html>

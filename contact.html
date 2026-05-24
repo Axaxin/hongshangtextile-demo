@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们 — 鸿尚纺织</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <img src="shop-pic/Homepage Image (4).jpg" alt="鸿尚纺织 Logo">
+    </div>
+    <div class="nav-links">
+      <a href="products.html">产品系列</a>
+      <a href="about.html">关于我们</a>
+      <a href="contact.html" class="active">联系我们</a>
+      <a href="en/contact.html" class="nav-lang">EN</a>
+    </div>
+    <button class="nav-menu-btn" aria-label="菜单"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav-mobile">
+    <a href="products.html">产品系列</a>
+    <a href="about.html">关于我们</a>
+    <a href="contact.html">联系我们</a>
+    <a href="en/contact.html" class="nav-lang">EN</a>
+  </div>
+
+  <div class="contact-layout">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>联系我们</h2>
+      <p>请填写下方表单，我们将在1-2个工作日内回复您。也可以直接通过以下方式联系我们。</p>
+
+      <div class="contact-item">
+        <div class="contact-item-icon">📧</div>
+        <div>
+          <div class="contact-item-label">EMAIL</div>
+          <div class="contact-item-value">contact@hongshang-textile.com</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">💬</div>
+        <div>
+          <div class="contact-item-label">WHATSAPP</div>
+          <div class="contact-item-value">+86 XXXX XXXX</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">📍</div>
+        <div>
+          <div class="contact-item-label">ADDRESS</div>
+          <div class="contact-item-value">广东省佛山市禅城区张槎街道</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon">🏭</div>
+        <div>
+          <div class="contact-item-label">工厂面积</div>
+          <div class="contact-item-value">4600㎡ · 50+ 加工设备</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inquiry Form -->
+    <div>
+      <form id="inquiry-form" novalidate>
+        <div class="form-group">
+          <label for="name">姓名 <span class="required" aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="您的姓名" autocomplete="name">
+          <div class="form-error" id="name-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="company">公司名称</label>
+          <input type="text" id="company" name="company" class="form-control" placeholder="公司名称（选填）" autocomplete="organization">
+        </div>
+        <div class="form-group">
+          <label for="email">邮箱 <span class="required" aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="your@email.com" autocomplete="email">
+          <div class="form-error" id="email-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="whatsapp">WhatsApp / 电话</label>
+          <input type="tel" id="whatsapp" name="whatsapp" class="form-control" placeholder="+86 或国际号码（选填）" autocomplete="tel">
+        </div>
+        <div class="form-group">
+          <label for="products">感兴趣的产品系列</label>
+          <select id="products" name="products" class="form-control">
+            <option value="">请选择（选填）</option>
+            <option value="棉麻系列">棉麻系列</option>
+            <option value="色织系列">色织系列</option>
+            <option value="提花系列">提花系列</option>
+            <option value="罗纹系列">罗纹系列</option>
+            <option value="全棉系列">全棉系列</option>
+            <option value="毛纺系列">毛纺系列</option>
+            <option value="经编系列">经编系列</option>
+            <option value="混纺系列">混纺系列</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="note">备注 / 具体需求</label>
+          <textarea id="note" name="note" class="form-control" placeholder="请描述您的面料需求，如数量、用途、特殊要求等（选填）"></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%;">发送询盘</button>
+      </form>
+      <div class="form-success" id="form-success" role="alert">
+        ✅ 感谢您的询盘！我们将在1-2个工作日内联系您。
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">鸿尚纺织</div>
+        <div class="footer-brand-sub">FOSHAN HONGSHANG TEXTILE CO., LTD.</div>
+        <p class="footer-brand-desc">专注针织面料研发、设计、生产和销售一体化的现代化纺织企业，位于中国针织名镇广东佛山张槎。</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">快速链接</div>
+        <ul>
+          <li><a href="products.html">产品系列</a></li>
+          <li><a href="about.html">关于我们</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+          <li><a href="en/index.html">English</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">联系方式</div>
+        <div class="footer-contact-item">📧 contact@hongshang-textile.com</div>
+        <div class="footer-contact-item">💬 WhatsApp: +86 XXXX XXXX</div>
+        <div class="footer-contact-item">📍 广东省佛山市张槎</div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 佛山市鸿尚纺织有限公司 · All Rights Reserved</div>
+  </footer>
+
+  <script type="module" src="assets/js/nav.js"></script>
+  <script type="module" src="assets/js/contact.js"></script>
+</body>
+</html>

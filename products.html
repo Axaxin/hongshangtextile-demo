@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>产品系列 — 鸿尚纺织</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-logo">
+      <img src="shop-pic/Homepage Image (4).jpg" alt="鸿尚纺织 Logo">
+    </div>
+    <div class="nav-links">
+      <a href="products.html" class="active">产品系列</a>
+      <a href="about.html">关于我们</a>
+      <a href="contact.html">联系我们</a>
+      <a href="en/products.html" class="nav-lang">EN</a>
+    </div>
+    <button class="nav-menu-btn" aria-label="菜单"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav-mobile">
+    <a href="products.html">产品系列</a>
+    <a href="about.html">关于我们</a>
+    <a href="contact.html">联系我们</a>
+    <a href="en/products.html" class="nav-lang">EN</a>
+  </div>
+
+  <div class="page-hero">
+    <div class="page-hero-sub">OUR PRODUCTS</div>
+    <h1 class="page-hero-title">面料系列</h1>
+  </div>
+
+  <!-- Category Tabs -->
+  <div class="tabs" role="tablist">
+    <button class="tab-btn active" data-category="all" role="tab">全部</button>
+    <button class="tab-btn" data-category="cotton-linen" role="tab">棉麻</button>
+    <button class="tab-btn" data-category="dyed-woven" role="tab">色织</button>
+    <button class="tab-btn" data-category="jacquard" role="tab">提花</button>
+    <button class="tab-btn" data-category="rib" role="tab">罗纹</button>
+    <button class="tab-btn" data-category="all-cotton" role="tab">全棉</button>
+    <button class="tab-btn" data-category="wool" role="tab">毛纺</button>
+    <button class="tab-btn" data-category="warp-knit" role="tab">经编</button>
+    <button class="tab-btn" data-category="blended" role="tab">混纺</button>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="products-grid">
+
+    <div class="product-card"
+      data-category="dyed-woven"
+      data-code="9282#"
+      data-name="涤棉色织棋盘格"
+      data-spec="幅宽：175cm · 克重：200g/㎡">
+      <img src="shop-pic/Homepage Image (1).jpg" alt="9282# 涤棉色织棋盘格">
+      <div class="product-card-body">
+        <div class="product-code">9282#</div>
+        <div class="product-name">涤棉色织棋盘格</div>
+        <div class="product-spec">幅宽：175cm · 克重：200g/㎡</div>
+        <button class="btn-inquire">询盘</button>
+      </div>
+    </div>
+
+    <div class="product-card"
+      data-category="cotton-linen"
+      data-code="9231#"
+      data-name="方块格棉布"
+      data-spec="幅宽：175cm · 克重：200g/㎡">
+      <img src="shop-pic/Homepage Image (2).jpg" alt="9231# 方块格棉布">
+      <div class="product-card-body">
+        <div class="product-code">9231#</div>
+        <div class="product-name">方块格棉布</div>
+        <div class="product-spec">幅宽：175cm · 克重：200g/㎡</div>
+        <button class="btn-inquire">询盘</button>
+      </div>
+    </div>
+
+    <div class="product-card"
+      data-category="jacquard"
+      data-code="9193#"
+      data-name="提花弹力罗纹布"
+      data-spec="幅宽：165cm · 克重：200g/㎡">
+      <img src="shop-pic/Image from Hongshangfangzhi (4).jpg" alt="9193# 提花弹力罗纹布">
+      <div class="product-card-body">
+        <div class="product-code">9193#</div>
+        <div class="product-name">提花弹力罗纹布</div>
+        <div class="product-spec">幅宽：165cm · 克重：200g/㎡</div>
+        <button class="btn-inquire">询盘</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-name">
+      <button class="modal-close" id="modal-close" aria-label="关闭">×</button>
+      <img class="modal-img" id="modal-img" src="" alt="">
+      <div class="modal-code" id="modal-code"></div>
+      <div class="modal-name" id="modal-name"></div>
+      <div class="modal-spec" id="modal-spec"></div>
+      <a class="btn-primary" id="modal-inquire" href="contact.html" style="display:inline-block;margin-top:8px;">发送询盘</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">鸿尚纺织</div>
+        <div class="footer-brand-sub">FOSHAN HONGSHANG TEXTILE CO., LTD.</div>
+        <p class="footer-brand-desc">专注针织面料研发、设计、生产和销售一体化的现代化纺织企业，位于中国针织名镇广东佛山张槎。</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">快速链接</div>
+        <ul>
+          <li><a href="products.html">产品系列</a></li>
+          <li><a href="about.html">关于我们</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+          <li><a href="en/index.html">English</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">联系方式</div>
+        <div class="footer-contact-item">📧 contact@hongshang-textile.com</div>
+        <div class="footer-contact-item">💬 WhatsApp: +86 XXXX XXXX</div>
+        <div class="footer-contact-item">📍 广东省佛山市张槎</div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 佛山市鸿尚纺织有限公司 · All Rights Reserved</div>
+  </footer>
+
+  <script type="module" src="assets/js/nav.js"></script>
+  <script type="module" src="assets/js/products.js"></script>
+</body>
+</html>
